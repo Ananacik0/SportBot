@@ -1,0 +1,27 @@
+{
+  "name": "sportbot",
+  "version": "1.0.0",
+  "description": "Telegram bot for searching plan training and nutrition",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ananacik0/SportBot.git"
+  },
+  "keywords": [],
+  "author": "Artur Khokhlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ananacik0/SportBot/issues"
+  },
+  "homepage": "https://github.com/Ananacik0/SportBot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9"
+  }
+}
